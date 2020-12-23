@@ -12,16 +12,17 @@
       "@type": "SoftwareApplication",
       "name": "Jamulus",
       "applicationCategory": "{{ page.ldjAppCategory }}",
-      "operatingSystem": "Windows, macOS, Linux",
-      "slogan": "{{ page.ldjSlogan }}",
+      "operatingSystem": "Windows 10, macOS 10.11, Linux",
       "discussionUrl": "https://sourceforge.net/p/llcon/discussion/",
-      "license": "GPL",
-      "creator": "{{ page.ldjCreator }}",
-      "codeRepository": "https://github.com/corrados/jamulus",
-      "programmingLanguage": "C++",
+      "license": "GPLv2",
+      "creator": {
+        "@type": "Person",
+        "name": "{{ page.ldjCreator }}"
+      },
       "isAccessibleForFree": true,
       "alternateName": "llcon",
       "thumbnailUrl": "https://jamulus.io/assets/img/jamulus-icon-2020.svg",
+      "downloadUrl": "https://sourceforge.net/projects/llcon/files/latest/download",
       "offers": {
         "@type": "Offer",
         "price": "0.00",
@@ -29,7 +30,6 @@
       }
     }
   </script>
-  <meta name="description" content="{{ page.metadescription }}">
 </head>
 
 <body class="mainsite">
@@ -42,7 +42,7 @@
     <div class="fx-col-100-xs" id="actionbutton">
       <div class="fx-row">
         <div class="fx-col-100-xs">
-          <a href="wiki/Getting-Started" target="_blank" id="get_started_btn_top" rel="noreferrer">{{ page.mTGetStartedNow }}</a>
+          <a href="wiki/Getting-Started" id="get_started_btn_top">{{ page.mTGetStartedNow }}</a>
         </div>
         <div class="fx-col-100-xs" id="dl_frm_sf_container">
           {{ page.mHTMLDownloadNow }}

@@ -1,18 +1,18 @@
 ---
 layout: wiki
-title: "Server Installation - Windows and Macintosh"
+title: "Server Installation - Windows and macOS"
 lang: "en"
 permalink: "/wiki/Server-Win-Mac"
 ---
 
-# Installation for Windows and Macintosh
+# Installation for Windows and macOS
 
 
 **_Please ensure you have read the [server overview](Running-a-Server)_**
 
 * **Windows users** - Start the server using the entry for "Jamulus server" in the Windows start menu.
 
-* **Macintosh users** - Double-click the "Jamulus server" icon in Applications (assuming you put the files from the install there as per [these instructions](Installation-for-Macintosh)).
+* **macOS users** - Double-click the "Jamulus server" icon in Applications (assuming you put the files from the install there as per [these instructions](Installation-for-Macintosh)).
 
 * **Linux users** - Please refer to the [GUI server instructions](Server-Linux#running-a-server-with-the-gui).
 
@@ -50,10 +50,6 @@ For headless servers: you can control the recording function [using these instru
 **Windows users** - If you want the server to start automatically on system start, enable the corresponding check box.
 
 (Leave the "Custom Central Server Address" field empty unless you need to list your server on a [private central server](Choosing-a-Server-Type#3-central))
-
-
-
-
 
 ***
 
