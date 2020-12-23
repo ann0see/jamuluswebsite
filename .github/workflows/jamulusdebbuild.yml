@@ -4,10 +4,10 @@ on:
     branches: 
       - gh-pages
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Get Repo
-      uses: actions/checkout@v2
-    - name: List
-      uses: ls; echo ""; pwd; cd jamuluswebsite
+      build:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Get Repo
+            uses: actions/checkout@v2
+          - name: List
+            uses: ls; echo ""; pwd; cd jamuluswebsite
