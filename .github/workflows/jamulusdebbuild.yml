@@ -1,12 +1,13 @@
 name: Auto Build Jamulus deb
-on: [push]
+on:
+  push:
+    branches: 
+      - gh-pages
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Get Jamulus Git
-      run: git clone https://github.com/corrados/jamulus
-    - name: Install dependencies
-      run: sudo apt -qq update; sudo apt -qq upgrade; sudo apt -qq install -y build-essential qt5-qmake qtdeclarative5-dev qt5-default qttools5-dev-tools libjack-jackd2-dev fakeroot devscripts debhelper
-    - name: Create.deb file
-      run: cd jamulus/distributions/; mv debian ..; debuild -b -us -uc; ls 
+    - name: Get Repo
+      uses: actions/checkout@v2
+    - name: List
+      uses: ls; echo ""; pwd; cd jamuluswebsite
