@@ -7,6 +7,6 @@ jobs:
     - name: Get Jamulus Git
       run: git clone https://github.com/corrados/jamulus
     - name: Install dependencies
-      run: sudo apt -qq update; sudo apt install -y build-essential qt5-qmake qtdeclarative5-dev qt5-default qttools5-dev-tools libjack-jackd2-dev fakeroot devscripts
+      run: sudo apt -qq update; sudo -qq apt upgrade; sudo -qq apt install -y build-essential qt5-qmake qtdeclarative5-dev qt5-default qttools5-dev-tools libjack-jackd2-dev fakeroot devscripts
     - name: Create.deb file
       run: cd jamulus/distributions/; mv debian ..; debuild -b -us -uc; mv debian distributions; ls 
