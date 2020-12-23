@@ -9,4 +9,4 @@ jobs:
     - name: Install dependencies
       run: sudo apt -qq update; sudo apt -qq upgrade; sudo apt -qq install -y build-essential qt5-qmake qtdeclarative5-dev qt5-default qttools5-dev-tools libjack-jackd2-dev fakeroot devscripts debhelper
     - name: Create.deb file
-      run: cd jamulus/distributions/; mv debian ..; debuild -b -us -uc; mv debian distributions; ls 
+      run: cd jamulus/distributions/; mv debian ..; debuild -b -us -uc; ls 
