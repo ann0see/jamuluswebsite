@@ -1,4 +1,4 @@
-<!-- OPMERKING: Dit moet werken voor de client en de server en alle besturingssystemen -->
+<!-- NOTE: This must apply to both Client and Server, and all operating systems -->
 
 Eenmaal geïnstalleerd en actief, dan wil je misschien een kopie van de instellingen bewaren. Het hebben van een back-up is altijd een goed idee en de bestanden waarin de instellingen zijn opgeslagen zijn niet compatibel met vorige versies van Jamulus. Dus als je terug wilt naar de vorige versie, dan moet je de instellingen herstellen die je had.
 

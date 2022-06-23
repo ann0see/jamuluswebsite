@@ -1,12 +1,13 @@
 
 [comment]: # (This is an include file for use in multiple documents)
 
-- `-h` ou `--help`     Afficher le texte d'aide         
-- `-i` ou `--inifile`   Définit l'emplacement du fichier d'initialisation (remplace la valeur par défaut) 
-- `-n` ou `--nogui`    Désactiver l'interface graphique (pour une utilisation en mode sans interface graphique)                      
-- `-p` ou `--port` Définit le numéro du port UDP local. La valeur par défaut est 22124 
-- -Q` ou `--qos` Définit la valeur DSCP de la qualité de service. La valeur par défaut est 128. Désactiver avec 0. QoS est ignoré par Windows. Pour l'activer, voir la
-  section ci-dessous
-- `-t` ou `--notranslation` Désactiver les traductions de langue de l'interface utilisateur
--  `-6` ou `--enableipv6` Active l'adressage IPv6 (IPv4 est toujours activé)
-- `-v` ou `--version` Affiche les informations sur la version et quitte le système 
+- `-h` or `--help`           Display help text         
+- `-i` or `--inifile`        Set location of initialization file (overrides default)
+- `-n` or `--nogui`          Disable GUI (for use in headless mode)                      
+- `-p` or `--port`           Sets the local UDP port number. Default is 22124
+- `--jsonrpcport`            Enables JSON-RPC API server to control the app, set TCP port number (EXPERIMENTAL, APIs might change; only accessible from localhost). Please see [the JSON-RPC API Documentation file](https://github.com/jamulussoftware/jamulus/blob/master/docs/JSON-RPC.md).
+- `--jsonrpcsecretfile`      Required when using `--jsonrpcport`. Sets a path to a text file containing an authentication string for getting access to the JSON-RPC API.
+- `-Q` or `--qos`            Sets the quality of service DS Field byte. Default is 128 (DSCP/CS4). QoS is ignored by Windows. To enable it, [see this page](QOS-Windows)
+- `-t` or `--notranslation`  Disable UI language translations
+- `-6` or `--enableipv6`     Enable IPv6 addressing (IPv4 is always enabled)
+- `-v` or `--version`        Output version information and exit
