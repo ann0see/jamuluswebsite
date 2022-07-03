@@ -1,4 +1,4 @@
-<!-- NOTE: This must apply to both Client and Server, and all operating systems -->
+<!-- NOTE : Ceci doit s'appliquer à la fois au client et au serveur, et à tous les systèmes d'exploitation -->
 
 Une fois installé et en fonctionnement, vous voudrez peut-être conserver une copie de vos paramètres. Avoir une sauvegarde est toujours une bonne idée, et les fichiers de paramètres ne sont pas rétrocompatibles entre les versions de Jamulus. Ainsi, si vous souhaitez revenir à la version précédente, vous devrez restaurer les paramètres que vous aviez.
 

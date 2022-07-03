@@ -1,13 +1,12 @@
 
 [comment]: # (Dit bestand is opgenomen in meerdere documenten)
 
-- `-h` or `--help`           Display help text         
-- `-i` or `--inifile`        Set location of initialization file (overrides default)
-- `-n` or `--nogui`          Disable GUI (for use in headless mode)                      
-- `-p` or `--port`           Sets the local UDP port number. Default is 22124
-- `--jsonrpcport`            Enables JSON-RPC API server to control the app, set TCP port number (EXPERIMENTAL, APIs might change; only accessible from localhost). Please see [the JSON-RPC API Documentation file](https://github.com/jamulussoftware/jamulus/blob/master/docs/JSON-RPC.md).
-- `--jsonrpcsecretfile`      Required when using `--jsonrpcport`. Sets a path to a text file containing an authentication string for getting access to the JSON-RPC API.
-- `-Q` or `--qos`            Sets the quality of service DS Field byte. Default is 128 (DSCP/CS4). QoS is ignored by Windows. To enable it, [see this page](QOS-Windows)
-- `-t` or `--notranslation`  Disable UI language translations
-- `-6` or `--enableipv6`     Enable IPv6 addressing (IPv4 is always enabled)
-- `-v` or `--version`        Output version information and exit
+- `-h` of `--help`     Laat de help tekst zien         
+- `-i` of `--inifile`   Stel de locatie in van het ini-bestand (overschrijft de standaard) 
+- `-n` of `--nogui`    Schakel de GUI uit (voor gebruik in headless mode)                      
+- `-p` of `--port`    Stelt het lokale UDP poort number in. Standaard is dit: 22124 
+- `-Q` of `--qos`     Stelt de DSCP-waarde van de Quality of Service in. Standaard is dit: 128. Uitschakelen met: 0. QoS wordt genegeerd door Windows. Om het in te schakelen, zie
+  sectie hieronder
+- `-t` of `--notranslation`   Schakelt UI-vertaling uit
+-  `-6` of `--enableipv6`      Schakelt IPv6 adressen in (IPv4 is altijd ingeschakeld)
+- `-v` of `--version`   Laat de versie informatie zien 

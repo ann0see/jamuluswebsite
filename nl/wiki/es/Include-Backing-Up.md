@@ -1,4 +1,4 @@
-<!-- NOTE: This must apply to both Client and Server, and all operating systems -->
+<!-- NOTE: This must apply to both client and server, and all operating systems -->
 
 Una vez instalado y en marcha, quizá quieras guardar una copia de tu configuración. Tener una copia de seguridad siempre es buena idea, y los archivos de configuración no son compatibles con versiones previas de Jamulus. Por lo que si quieres volver a la versión anterior, deberás reestablecer la configuración que tenías.
 
